@@ -1,0 +1,32 @@
+* {
+  background-color: #4a90e2;
+  text-align: center;
+}
+
+#decrease {
+  margin: 10px;
+  background-color: rgb(192, 82, 214);
+  border-radius: 10px;
+  padding: 10px;
+}
+#increase {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px; 
+}
+#reset {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rebeccapurple;
+}
+
+
+
+
+
+#reveal {
+  background-color: navy;
+  color: white;
+  height: 40px;
+} 
