@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Button from './Button';
 import CSS from './App.css'
-// class App extends Component {
-//   constructor(){
-//    super()
-//   //   this.state= {
-//   //     category: '' 
-//   //     value: ''
+class App extends Component {
+  constructor(){
+   super()
+    this.state= {
+      category: '', 
+      value: ''
 
-//   //   }
-//   }
-  // const handleClick = () => {
+    }
+  }
+  // handleClick = () => {
   //   axios.get('http://jservice.io/api/random')
   //   .then(res => setData(res.data.data.images.original.url))
   //   .catch(err => console.log(err))
@@ -46,5 +46,6 @@ import CSS from './App.css'
     )
   }
 }
+
 
 export default App;  
